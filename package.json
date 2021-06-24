@@ -1,0 +1,16 @@
+{
+  "name": "customerrequestchallenge",
+  "version": "1.0.0",
+  "description": "For Cloudcase",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild app.js --bundle --outfile=dist/app.js",
+    "test": "jest"
+  },
+  "author": "Edward Steven",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.12.9",
+    "jest": "^27.0.5"
+  }
+}

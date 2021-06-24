@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="wrapper">
+                <h1>A&amp;B Bank</h1>
+                <span>Community Banking</span>
+            </div>
+        </header>
+        <main style="padding-bottom: 2rem" class="form-container">
+
+            <div class="wrapper">
+
+            <p class="explainer">Please input a salary to calculate annual tax payable and employer super contributions</p>
+
+            <form>
+                <label>Salary Amount</label>
+                <input id="salaryInput" class="input" type="text" />
+            </form>
+
+            <div class="results-banner">
+                <p>Results</p>
+            </div>
+
+            <div class="results-grid">
+                <span class="bold">Super Contributions:</span>
+                <span id="super">$0.00</span>
+
+                <span class="bold">Tax Paid:</span>
+                <span id="tax">$0.00</span>
+
+            </div>
+
+        </main>
+
+        <script src="dist/app.js"></script>
+</html>

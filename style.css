@@ -1,0 +1,145 @@
+*, :before, :after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --brandColor: #0867FF;
+    --brandHighlight: #2b71e2;
+
+}
+
+html{
+    font-size: 12pt;
+    font-family: 'Helvetica Neue', sans-serif
+
+}
+
+header {
+
+    background-color: var(--brandColor);
+    color: #fafafa;
+    padding: 4rem 0 4rem 0;
+
+}
+
+.wrapper {
+    width: 960px;
+    margin:auto;
+}
+
+.form-container {
+    width: calc(960px + 12rem);
+    margin:auto;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+    
+}
+
+.form-container h2{
+
+    padding: 2rem 0 2rem 0;
+
+}
+
+.form-container p {
+    padding-bottom: 0.8rem;
+}
+
+fieldset {
+    border: none;
+    margin: 2rem 0 2rem 0;
+}
+
+legend {
+
+    font-size: 120%;
+    padding-bottom: 0.4rem
+
+}
+
+fieldset div{
+    margin-left: 1rem;
+}
+
+.input-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 2rem;
+}
+
+.input-group{
+    display:flex;
+    flex-direction: column;
+}
+
+.input{
+    border: 1px solid #8188A3;
+    border-radius: 4px;
+    padding:0.6rem;
+    margin-top: 0.3rem
+}
+
+.span-2{
+    grid-column: span 2 / span 2;
+}
+
+.actions_background{
+    background-color: #F4F6FA;
+}
+
+.actions{
+    display:flex;
+    justify-content: flex-end;
+    background-color: #F4F6FA;
+    padding: 2rem 0 2rem 0;
+    
+}
+
+button{
+    background-color: var(--brandColor);
+    border: 1px solid #0046AF;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 105%;
+    color: #ffffff;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+button:hover{
+    background-color: var(--brandHighlight)
+}
+
+.explainer {
+    padding: 2rem 0 2rem 0;
+}
+
+.results-grid {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.results-banner {
+    font-weight: 700;
+    margin-top:3rem;
+    margin-bottom:1.5rem;
+    padding: 1rem 0 1rem 0.5rem;
+    font-style: italic;
+    background-color: #fafafa; 
+    display:flex; 
+    align-content: center;
+}
+
+.results-banner p{
+    padding: 0;
+}
