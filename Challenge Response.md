@@ -29,4 +29,4 @@ I included two fields for emergency contact details in case of medical emergency
 
 I included fields for a BSB/bank account, a super provider and a Tax File Number; the BSB / bank account fields are so the recruit can get paid, the Tax File Number is to ensure payroll can make payments and deductions for the right person, and the super provider field so that the recruit can notify the employer of which super fund they are with.
 
-Finally, I included a field for a new recruit to list any workspace considerations they would want to request to ensure HR is able to keep a record of these details and any changes made for health and safety complicance.
+Finally, I included a field for a new recruit to list any workspace considerations they would want to request to ensure HR is able to keep a record of these details and any changes made for health and safety compliance.
