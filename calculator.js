@@ -27,7 +27,7 @@ module.exports = {
 
     calculateTaxWithMap: (salary, brackets) => {
 
-        return brackets.map( (bracket, i) => {
+        return brackets.sort(bracket => bracket.to).map( (bracket, i) => {
 
             const lastBracket = (brackets[i-1] ? brackets[i-1].to : 0)
 
